@@ -1,3 +1,4 @@
+#--------------------------------------------------------------------------------
 import datetime
 
 date = datetime.datetime.now()
@@ -8,7 +9,7 @@ print(date)
 
 print(date.strftime('%B'))
 
-#How to parse a string to date in python
+#--------------How to parse a string to date in python----------------------------
 
 from datetime import datetime
 
@@ -21,6 +22,8 @@ except ValueError as e :
     print('Date format is wrong')
 except Exception as e :
     print('Some issue converting date')
+    
+#----------------------------------------------------------------------------------
     
 
 
