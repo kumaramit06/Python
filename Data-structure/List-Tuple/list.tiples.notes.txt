@@ -14,3 +14,8 @@ remove(element): Removes the first occurrence of a specified element.
 pop(index): Removes and returns an element at a specified index (default is the last element).
 sort(): Sorts the list in place.
 reverse(): Reverses the list in place.
+
+
+Use the in keyword to check for presence and the index() method to find the first occurrence's index.
+Use enumerate() to loop through the list and find both the index and the item.
+Use a list comprehension to find all indices if the item may appear multiple times
