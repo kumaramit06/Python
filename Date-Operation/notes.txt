@@ -1,0 +1,7 @@
+Common Date/Time Format Codes:
+%Y: Year with century (e.g., 2024)
+%m: Month as a zero-padded decimal (e.g., 10 for October)
+%d: Day of the month as a zero-padded decimal (e.g., 05)
+%H: Hour (24-hour clock) as a zero-padded decimal
+%M: Minute as a zero-padded decimal
+%S: Second as a zero-padded decimal
